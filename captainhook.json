@@ -1,0 +1,11 @@
+{
+    "prepare-commit-msg": {
+        "enabled": true,
+        "actions": [
+            {
+                "action": "\\Landesadel\\easyBlog\\GitHooks\\PrepareCommitMessage",
+                "options": []
+            }
+        ]
+    }
+}
